@@ -22,7 +22,6 @@ export const Title = styled(motion.h1)`
     color: #16191D;
     position: fixed;
     top: -12.2vw;
-    // word-spacing: 100px;
 `;
 
 const TitleContainer = styled.div`
@@ -70,13 +69,8 @@ export const ScrollFade = ({ text }) => {
 
     useEffect(() => {
         console.log("Location change:", location.pathname);
-        // Update isHomePage based on current location path
         setIsHomePage(location.pathname === "/");
     }, [location]);
-
-    useEffect(() => {
-        console.log("isHomePage:", isHomePage);
-    }, [isHomePage]);
 
     return (
         <div>

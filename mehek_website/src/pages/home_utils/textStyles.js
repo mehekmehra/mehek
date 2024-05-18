@@ -53,6 +53,7 @@ export const StyledText = styled.p`
     word-break: break-word;
     overflow-wrap: anywhere;
     max-width: 25vw;
-    z-index: 10; 
-    position: relative;
+    z-index: 30; 
+    position: absolute;
+    top: 1000px;
 `;

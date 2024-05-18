@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import me from "../resources/me.jpg";
-import me2 from "../resources/me2.jpg";
 
 const StyledImage = styled.img`
     position: relative;
@@ -29,7 +28,7 @@ const SubContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    height: 97vh;
     width: 94.5vw;
     position: absolute;
     overflow: hidden;

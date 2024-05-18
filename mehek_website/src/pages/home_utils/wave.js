@@ -10,7 +10,7 @@ const WaveSVG = styled.svg`
 `;
 
 const WavePath = styled.path`
-    fill: #EEEAD0;
+    fill: ${props => props.fillColor};
 
 `;
 
@@ -18,16 +18,16 @@ const WaveContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
-    width: 110vw;
+    height: 100vh;
+    width: 100vw;
     position: absolute;
-    top: 138vh;
+    top: 144vh;
     left: 0;
     z-index: 27;
 `;
 
 
-export const SinusoidalWave = () => {
+export const SinusoidalWave = ({fillColor}) => {
     const amplitude = 20; 
     const wavelength = 4; 
     const frequency = 0.015; 
@@ -43,7 +43,7 @@ export const SinusoidalWave = () => {
     return (
         <WaveContainer>
             <WaveSVG viewBox="0 0 1440 320">
-                <WavePath d={pathData} />
+                <WavePath d={pathData} fillColor={fillColor}/>
             </WaveSVG>
         </WaveContainer>
     );
