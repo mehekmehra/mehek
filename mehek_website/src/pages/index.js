@@ -5,15 +5,16 @@ import { ScrollFade } from "../navigation/initialize.js";
 import { RoundedRectangle, RectangleContainer, Container } from "./home_utils/backgroundStyles"
 import { SinusoidalWave } from "./home_utils/wave";
 import { CreateImage } from "./home_utils/coverImage";
-import { useRef } from "react";
-import { DownButton, ButtonContainer } from "./home_utils/downButton.js";
+
+import { ScrollDown, Bounce } from "./home_utils/downButton.js";
 
 const Home = () => {
     document.body.style.backgroundColor = "#EEEAD0";
-    const pageRef = useRef(null);
-    const offsetAdjustment = 100;
+    
     return (
         <Container>
+            {/* <ScrollDown></ScrollDown> */}
+            <Bounce></Bounce>
             <CreateImage />
             
             
@@ -21,20 +22,20 @@ const Home = () => {
             
             <SinusoidalWave fillColor='#EEEAD0'/>
 
-            <ButtonContainer>
-                <DownButton onClick={() =>
-                    window.scrollTo({
-                        top: pageRef.current.offsetTop - offsetAdjustment,
-                        behavior: "smooth"
-                    })}>
-                    Learn More ▼
-                </DownButton>
-            </ButtonContainer>
+            <StyledText>
+                I make things.
+
+                I am a software engineer, mathematician and artist who makes things. 
+                Websites, machine learning models, data analysis tools, art and clothing. 
+                
+                I make them. 
+
+            </StyledText>
 
             <RectangleContainer>
                 <RoundedRectangle/>
             </RectangleContainer> 
-            <StyledText ref={pageRef}> filler text </StyledText>
+            
             
 
         

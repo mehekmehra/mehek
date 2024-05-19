@@ -8,7 +8,7 @@ const StyledImage = styled.img`
     // height: 543.2px;
     width: 1366px;
     height: 679px;
-    z-index: 15;
+    z-index: 5;
     object-fit: cover;
     padding: 20px;
 `;

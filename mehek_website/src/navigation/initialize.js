@@ -20,7 +20,7 @@ export const Title = styled(motion.h1)`
     font-size: 150pt;
     font-family: 'Mandala';
     color: #16191D;
-    position: fixed;
+    position: relative;
     top: -12.2vw;
 `;
 
