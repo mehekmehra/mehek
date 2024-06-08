@@ -1,7 +1,27 @@
 import React from "react";
- 
-const Art = () => {
-    return <h1>You can write your blogs!</h1>;
-};
- 
-export default Art;
+import { PageContainer } from "./Styles/PageContainer";
+import { Menu, MainInfo } from "./Styles/TextContainers";
+import { Title, SubTitle } from "./Styles/TextStyles";
+import { Navigation } from "./NavBar";
+import { DisplayImages } from "./Styles/ImageGallery";
+import { useMediaQuery } from "react-responsive";
+
+export default function Art() {
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+return (
+  <PageContainer>
+   <Menu>
+      <Navigation/>
+    </Menu>
+    <MainInfo isSmallScreen={isSmallScreen}>
+      <Title> Art </Title>
+      <SubTitle  isSmallScreen={isSmallScreen}> 
+        Outside of developing software, I spend most of my time making art of various.
+        I love exploring media, concepts and techniques, so I am constantly learning. 
+        Most of my personal growth in creativity, problem-solving, confidence and determination has stemmed from my pursuit of the arts.
+      </SubTitle>
+    </MainInfo>  
+    <DisplayImages isSmallScreen={isSmallScreen}/>
+  </PageContainer>
+);
+}

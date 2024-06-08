@@ -1,41 +1,34 @@
-import './App.css';
 import React from "react";
-import Navigation from "./navigation";
+import Navigation from "./pages/NavBar.js";
 import {
     BrowserRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
-import Home from "./pages";
-import CS from "./pages/cs";
-import Art from "./pages/art";
-import Contact from "./pages/contact";
-import { ScrollFade } from './navigation/initialize.js';
+import Home from "./pages/Home.js";
+import Software from "./pages/Software";
+import Art from "./pages/Art";
+import Contact from "./pages/Contact";
+
 
 function App() {
+  document.documentElement.style.height = "100%";
+  document.body.style.backgroundColor = "#E1E0D8";
+  document.body.style.height = "100%";
+  document.body.style.display = "flex";
+  document.body.style.justifyContent = "center";
+  document.body.style.alignItems = "center";
+  // document.body.style.margin = "0";
+  // document.body.style.boxSizing = "border-box";
+
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       <div className="routing">
         <Router>
-          <ScrollFade text={'Mehek Mehra'} />
-          <Navigation />
+          {/* <Navigation /> */}
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route path="/software" element={<CS />} />
+                <Route path="/software" element={<Software />} />
                 <Route path="/art" element={<Art />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
