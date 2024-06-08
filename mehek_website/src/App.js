@@ -26,7 +26,7 @@ function App() {
         <Router basename="/">
 
             <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route exact path="/mehek" element={<Home />} />
                 <Route path="/software" element={<Software />} />
                 <Route path="/art" element={<Art />} />
                 <Route path="/contact" element={<Contact />} />
