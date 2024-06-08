@@ -10,7 +10,7 @@ export const Navigation = () => {
         <nav>
             <StyledList isSmallScreen={isSmallScreen}>
                 <StyledElement  isSmallScreen={isSmallScreen}>
-                    <HighlightLink linkText={"Home"} linkAddress={"/mehek"} />
+                    <HighlightLink linkText={"Home"} linkAddress={"/mehek/"} />
                 </StyledElement>
                 <StyledElement  isSmallScreen={isSmallScreen}>
                     <HighlightLink linkText={"Software"} linkAddress={"/software"}/>

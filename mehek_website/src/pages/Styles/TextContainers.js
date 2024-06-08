@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainInfo = styled.div `
     position: absolute;
     left: ${({ isSmallScreen }) => (isSmallScreen ? "3vw" : "2vw")};
-    top: ${({ isSmallScreen }) => (isSmallScreen ? "5vh" : "2vh")};
+    top: ${({ isSmallScreen }) => (isSmallScreen ? "10vh" : "2vh")};
 `
 export const Menu = styled.div `
     position: absolute;
