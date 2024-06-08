@@ -15,7 +15,7 @@ const ImageGallery = styled.div `
     overflow-x: scroll;
     white-space: nowrap;
     width: ${({ isSmallScreen }) => (isSmallScreen ? "100vw" : "65vw")};
-    top: ${({ isSmallScreen }) => (isSmallScreen ? "32vh" : "auto")};
+    top: ${({ isSmallScreen }) => (isSmallScreen ? "36vh" : "auto")};
     bottom: ${({ isSmallScreen }) => (isSmallScreen ? "auto" : "8vh")};
     left: ${({ isSmallScreen }) => (isSmallScreen ? "5vw" : "30vw")};
 `
