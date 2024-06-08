@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.c8a17f1f.js",
-    "static/media/tree1.jpg": "/static/media/tree1.13d346cf273daff36a19.jpg",
-    "static/media/collage.jpg": "/static/media/collage.0dfd55515c92687e2e6c.jpg",
-    "static/media/fish.jpg": "/static/media/fish.14d4c1ab318d3e409bd7.jpg",
-    "static/media/bottle.jpg": "/static/media/bottle.87662516f358964e6c96.jpg",
-    "static/media/tree2.jpeg": "/static/media/tree2.57aa9259ccd1cf00ebdc.jpeg",
-    "static/media/torso.jpeg": "/static/media/torso.d61e2fd415edbd0a0788.jpeg",
-    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/static/media/Montserrat-Italic-VariableFont_wght.7451547bd28d8dddbeea.ttf",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
-    "static/media/MayResume.pdf": "/static/media/MayResume.59604645532d94d9c958.pdf",
-    "static/media/KyivTypeSerif-Heavy.otf": "/static/media/KyivTypeSerif-Heavy.b2958f4803826f66017e.otf",
-    "static/media/KyivTypeSerif-Heavy3.otf": "/static/media/KyivTypeSerif-Heavy3.3f9ef07bbffc1817fe5f.otf",
-    "index.html": "/index.html",
-    "main.c8a17f1f.js.map": "/static/js/main.c8a17f1f.js.map"
+    "main.js": "/mehek/static/js/main.99c5dbdc.js",
+    "static/media/tree1.jpg": "/mehek/static/media/tree1.13d346cf273daff36a19.jpg",
+    "static/media/collage.jpg": "/mehek/static/media/collage.0dfd55515c92687e2e6c.jpg",
+    "static/media/fish.jpg": "/mehek/static/media/fish.14d4c1ab318d3e409bd7.jpg",
+    "static/media/bottle.jpg": "/mehek/static/media/bottle.87662516f358964e6c96.jpg",
+    "static/media/tree2.jpeg": "/mehek/static/media/tree2.57aa9259ccd1cf00ebdc.jpeg",
+    "static/media/torso.jpeg": "/mehek/static/media/torso.d61e2fd415edbd0a0788.jpeg",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/mehek/static/media/Montserrat-Italic-VariableFont_wght.7451547bd28d8dddbeea.ttf",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/mehek/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/MayResume.pdf": "/mehek/static/media/MayResume.59604645532d94d9c958.pdf",
+    "static/media/KyivTypeSerif-Heavy.otf": "/mehek/static/media/KyivTypeSerif-Heavy.b2958f4803826f66017e.otf",
+    "static/media/KyivTypeSerif-Heavy3.otf": "/mehek/static/media/KyivTypeSerif-Heavy3.3f9ef07bbffc1817fe5f.otf",
+    "index.html": "/mehek/index.html",
+    "main.99c5dbdc.js.map": "/mehek/static/js/main.99c5dbdc.js.map"
   },
   "entrypoints": [
-    "static/js/main.c8a17f1f.js"
+    "static/js/main.99c5dbdc.js"
   ]
 }
