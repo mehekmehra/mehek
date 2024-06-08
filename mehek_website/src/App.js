@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from "./pages/NavBar.js";
 import {
     BrowserRouter as Router,
     Routes,
@@ -24,8 +23,8 @@ function App() {
   return (
     <div className="App">
       <div className="routing">
-        <Router>
-          {/* <Navigation /> */}
+        <Router basename="/">
+
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/software" element={<Software />} />
