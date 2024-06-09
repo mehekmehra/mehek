@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/mehek/static/js/main.237be2d4.js",
+    "main.js": "/mehek/static/js/main.9341e34e.js",
     "static/media/tree1.jpg": "/mehek/static/media/tree1.13d346cf273daff36a19.jpg",
     "static/media/collage.jpg": "/mehek/static/media/collage.0dfd55515c92687e2e6c.jpg",
     "static/media/me.jpg": "/mehek/static/media/me.d89b312bc296a66db616.jpg",
@@ -16,9 +16,9 @@
     "static/media/KyivTypeSerif-Heavy.otf": "/mehek/static/media/KyivTypeSerif-Heavy.b2958f4803826f66017e.otf",
     "static/media/KyivTypeSerif-Heavy3.otf": "/mehek/static/media/KyivTypeSerif-Heavy3.3f9ef07bbffc1817fe5f.otf",
     "index.html": "/mehek/index.html",
-    "main.237be2d4.js.map": "/mehek/static/js/main.237be2d4.js.map"
+    "main.9341e34e.js.map": "/mehek/static/js/main.9341e34e.js.map"
   },
   "entrypoints": [
-    "static/js/main.237be2d4.js"
+    "static/js/main.9341e34e.js"
   ]
 }
