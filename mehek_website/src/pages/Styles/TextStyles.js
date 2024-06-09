@@ -19,7 +19,7 @@ export const SubTitle = styled.h1 `
     line-height: 150%;
     padding: 0px;
     font-weight: 350;
-    max-width: ${({ isSmallScreen }) => (isSmallScreen ? "90vw" : "240px")};
+    max-width: ${({ isSmallScreen, isProject }) => (isSmallScreen || isProject ? "90vw" : "240px")};
 `
 
 export const Skills = styled.h1 `
@@ -31,6 +31,7 @@ export const Skills = styled.h1 `
     padding: 0px;
     font-weight: 350;
     text-align: ${({ isSmallScreen }) => (isSmallScreen ? "left" : "right")};
+    max-width: ${({ isSmallScreen }) => (isSmallScreen ? "90vw" : "auto")};
 `
 
 export const DescriptionTitle = styled.h1 `

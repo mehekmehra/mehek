@@ -23,10 +23,11 @@ const FrameContainer = styled.div `
 
 export const PageContainer = ({ children }) => {
     const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+    const isShortScreen = useMediaQuery({ query: "(max-height: 450px)" });
   
     return (
       <FrameContainer>
-        {isSmallScreen ? children : <Frame>{children}</Frame>}
+        {isSmallScreen || isShortScreen ? children : <Frame>{children}</Frame>}
       </FrameContainer>
     );
 };

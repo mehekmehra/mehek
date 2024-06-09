@@ -4,7 +4,11 @@ import Tree2 from "../Resources/tree2.jpeg";
 import Fish from "../Resources/fish.jpg";
 import Tree from "../Resources/tree1.jpg";
 import Bottle from "../Resources/bottle.jpg";
+import Leopard from "../Resources/leopard.jpg";
 import Collage from "../Resources/collage.jpg";
+import Me from "../Resources/me.jpg";
+import Shambles from "../Resources/shambles.jpeg";
+
 import { useMediaQuery } from "react-responsive";
 
 
@@ -36,8 +40,11 @@ export const DisplayImages = () => {
         { title: Torso },
         { title: Fish },
         { title: Bottle },
+        { title: Leopard },
         { title: Collage },
         { title: Tree2 },
+        { title: Me },
+        { title: Shambles },
     ];
 
     const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });

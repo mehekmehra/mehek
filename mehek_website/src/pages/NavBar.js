@@ -6,19 +6,21 @@ import { useMediaQuery } from "react-responsive";
 
 export const Navigation = () => {
     const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+    const isShortScreen = useMediaQuery({ query: "(max-height: 450px)" });
+    
     return (
         <nav>
-            <StyledList isSmallScreen={isSmallScreen}>
-                <StyledElement  isSmallScreen={isSmallScreen}>
+            <StyledList isSmallScreen={isSmallScreen} isShortScreen={isShortScreen}>
+                <StyledElement  isSmallScreen={isSmallScreen}  isShortScreen={isShortScreen}>
                     <HighlightLink linkText={"Home"} linkAddress={"/mehek/"} />
                 </StyledElement>
-                <StyledElement  isSmallScreen={isSmallScreen}>
+                <StyledElement  isSmallScreen={isSmallScreen}  isShortScreen={isShortScreen}>
                     <HighlightLink linkText={"Software"} linkAddress={"/software"}/>
                 </StyledElement>
-                <StyledElement  isSmallScreen={isSmallScreen}>
+                <StyledElement  isSmallScreen={isSmallScreen}  isShortScreen={isShortScreen}>
                     <HighlightLink linkText={"Art"} linkAddress={"/art"}/>
                 </StyledElement>
-                <StyledElement  isSmallScreen={isSmallScreen}>
+                <StyledElement  isSmallScreen={isSmallScreen}  isShortScreen={isShortScreen}>
                     <ExternalStyledLink href={Resume} target={"_blank"}> Resume </ExternalStyledLink>
                 </StyledElement>
                 {/* <StyledElement>

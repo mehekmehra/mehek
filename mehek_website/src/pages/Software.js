@@ -8,12 +8,14 @@ import { useMediaQuery } from "react-responsive";
 
 export default function Software() {
   const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+  const isShortScreen = useMediaQuery({ query: "(max-height: 450px)" });
+
 return (
   <PageContainer>
     <Menu>
       <Navigation/>
     </Menu>
-    <MainInfo isSmallScreen={isSmallScreen}>
+    <MainInfo isSmallScreen={isSmallScreen} isShortScreen={isShortScreen}>
       <Title> Software </Title>
       <SubTitle  isSmallScreen={isSmallScreen}> 
         This is a collection of a few software projects I have worked on. 

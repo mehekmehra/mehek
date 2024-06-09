@@ -8,12 +8,14 @@ import { useMediaQuery } from "react-responsive";
 
 export default function Home() {
   const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+  const isShortScreen = useMediaQuery({ query: "(max-height: 450px)" });
+
 return (
   <PageContainer>
     <Menu>
       <Navigation/>
     </Menu>
-    <MainInfo isSmallScreen={isSmallScreen}>
+    <MainInfo isSmallScreen={isSmallScreen} isShortScreen={isShortScreen}>
       <Title> Mehek Mehra </Title>
       <SubTitle  isSmallScreen={isSmallScreen}> 
         Software Engineer | Artist 
@@ -26,7 +28,7 @@ return (
     </MainInfo>
     <SecondaryInfo>
     <SubTitle  isSmallScreen={isSmallScreen}>
-        <ExternalLink href="www.linkedin.com/in/mehek-mehra" target="_blank">LinkedIn</ExternalLink> | <ExternalLink href="https://github.com/mehekmehra" target="_blank">GitHub</ExternalLink>
+        <ExternalLink href="https://www.linkedin.com/in/mehek-mehra" target="_blank">LinkedIn</ExternalLink> | <ExternalLink href="https://github.com/mehekmehra" target="_blank">GitHub</ExternalLink>
       </SubTitle>
     </SecondaryInfo>
     <Animation isSmallScreen={isSmallScreen}>

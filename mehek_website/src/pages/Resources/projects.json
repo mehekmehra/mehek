@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Analyzing Query Logs",
+        "description": "For my intern project at Amazon, I was tasked with creating a pipeline to ingest query log data, process, analyze it, and present the results in a dashboard. I taught myself how to use a variety of AWS tools including S3, Athena and QuickSight using the Boto3 API. I also learned how to build a cloud development package and work with Dockerfiles. While I gained a lot technical skills from this experience, I also gained countless professional ones. I learned to write maintainable code, communicate my progress concisely, present technical details to audiences with different backgrounds, manage my time effectively and document my design and implementation choices. This was an extremely valuable experience for me and changed the way I code.",
+        "subtitle": "2023 | Python, Cloud Development, SQL, AWS, Docker, Git",
+        "repoExists" : false,
+        "repoUrl" : ""
+    },
+    {
+        "title": "Synthesizing Training Data",
+        "description": "For my senior capstone project at Harvey Mudd College, I got the opportunity to work with healtcare technology company Inspiren. I worked as Project Manager and Software Engineer on our team of four undergraduate students to develop a pipeline to synthesize domain specific training data for computer vision models. This was a challenge project because Inspiren works with patient data, so we had to develop methods to generate training data that improved model performance but also preserved patient privacy. We explored various techniques including deblurring models and privacy-preserving learning. I trained and tested several machine learning models and modified them to suite our data. I also developed a UI to screen the results of our machine learning models. This project also taught me how lead a team, delegate tasks, provide progress updates to stakeholders and lead meetings. I also developed strong interpersonal skills through collaborative work sessions and pair programming.",
+        "subtitle": "2023-24 | Python, Machine Learning, PyTorch, AWS, Qt, Git",
+        "repoExists" : false,
+        "repoUrl" : ""
+    },
+    {
+        "title": "Finding Automorphisms",
+        "description": "This was my first large scale project that I worked on. While researching the Automorphism Groups of Partially Ordered Sets (complicated math), I found that our team was spending a lot of time doing intensive computation by hand, so I created a Python script to do it for us. This script worked really well for us and the matrix transformation algorithm I used inspired new approaches to understanding partially ordered sets. However, I acknowledge that this is not very high quality code and if I were to redo this project with my skills now, it would look very different.",
+        "subtitle": "2022 | Python, Abstract Algebra Research",
+        "repoExists" : true,
+        "repoUrl" : "https://github.com/mehekmehra/Automorphisms-on-Posets"
+    },
+    {
+        "title": "Variational Autoencoders",
+        "description": "For my Neural Networks class, I recreated a Variational Autoencoder (VAE) with three other students. Our VAE was trained to generate images of cats.",
+        "subtitle": "2023 | Python, Machine Learning, PyTorch",
+        "repoExists" : true,
+        "repoUrl" : "https://github.com/davidenders11/vae-project"
+    },
+    {
+        "title": "Meal Scheduling App",
+        "description": "I often have a hard time deciding what I want to eat, so planning what I should meal prep is a very difficult task for me. To solve this problem, I built a simple app that consists of a web UI, a SQL database and a Python backend that picks meals and communicates with Google Calendar. The app works by letting the user input meals that they tend to cook into a database. The Python backend then picks the meals for each week and then creates a Google Calendar event with the meals for that week. This project taught me about full stack development, how to break down a problem into separate parts and design a solution.",
+        "subtitle": "2024 | Python, SQL, Google Cloud API, Flask, JS, HTML, CSS",
+        "repoExists" : true,
+        "repoUrl" : "https://github.com/mehekmehra/meal-planning"
+    },
+    {
+        "title": "Analyzing Gaze Locations",
+        "description": "I took a class in Human Vision, which was not a biology class as you would assume but a CS one. The class taught to think about design and how I develop applications to consider how people actually see the world. As part of the class, I got the opportunity to conduct experiments with eye trackers and do data analysis on it. This is one of the scripts I wrote to analyze that data.",
+        "subtitle": "2023 | Python",
+        "repoExists" : true,
+        "repoUrl" : "https://github.com/mehekmehra/Eye-Tracking-DeepPrivacy"
+    },
+    {
+        "title": "Analyzing My Spotify",
+        "description": "I like knowing what I have been listening to and often use third-party tools to keep track of my Spotify. So, I decided to try out the Spotify API and do my own analysis.",
+        "subtitle": "2023 | Python, Spotify API",
+        "repoExists" : true,
+        "repoUrl" : "https://github.com/mehekmehra/spotify"
+    },
+    {
+        "title": "My Personal Website",
+        "description": "I have taught myself all of my Web Development skills by doing various personal projects. This website was my way of teaching myself react. Although I could have built most of this website in CSS and HTML, I decided to challenge myself to do it all in React. I learned how to create responsive pages and animations. I also got to put my design skills to the test.",
+        "subtitle": "2024 | React",
+        "repoExists" : true,
+        "repoUrl" : "https://github.com/mehekmehra/mehek"
+    }
+]

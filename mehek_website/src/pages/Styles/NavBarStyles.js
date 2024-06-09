@@ -37,15 +37,15 @@ export const ExternalStyledLink = styled.a `
 export const StyledElement = styled.li `
     text-align: left;
     list-style-type: none;
-    padding: ${({ isSmallScreen }) => (isSmallScreen ? "0px 5px" : "0px")};
-    float: ${({ isSmallScreen }) => (isSmallScreen ? "left" : "auto")};
+    padding: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "0px 5px" : "0px")};
+    float: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "left" : "auto")};
 `
 export const StyledList = styled.ul `
-    padding: ${({ isSmallScreen }) => (isSmallScreen ? "0px 10px" : "0px")};
-    background-color: ${({ isSmallScreen }) => (isSmallScreen ? "#E1E0D8" : "none")};
-    position: ${({ isSmallScreen }) => (isSmallScreen ? "fixed" : "auto")};
-    top: ${({ isSmallScreen }) => (isSmallScreen ? "0" : "auto")};
-    left: ${({ isSmallScreen }) => (isSmallScreen ? "0" : "auto")};
-    z-index: ${({ isSmallScreen }) => (isSmallScreen ? "50" : "1")};
-    width: ${({ isSmallScreen }) => (isSmallScreen ? "100vw" : "auto")};
+    padding: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "0px 10px" : "0px")};
+    background-color: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "#E1E0D8" : "none")};
+    position: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "fixed" : "auto")};
+    top: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ?"0" : "auto")};
+    left: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "0" : "auto")};
+    z-index: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "50" : "1")};
+    width: ${({ isSmallScreen, isShortScreen }) => (isSmallScreen || isShortScreen ? "100vw" : "auto")};
 `
