@@ -8,6 +8,7 @@ import Home from "./pages/Home.js";
 import Software from "./pages/Software";
 import Art from "./pages/Art";
 import Contact from "./pages/Contact";
+import { Helmet } from "react-helmet";
 
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
   document.body.style.display = "flex";
   document.body.style.justifyContent = "center";
   document.body.style.alignItems = "center";
-  // document.body.style.margin = "0";
-  // document.body.style.boxSizing = "border-box";
 
   return (
     <div className="App">
+      <Helmet>
+        <title>Mehek Mehra </title>
+      </Helmet>
       <div className="routing">
         <Router basename="/">
 
