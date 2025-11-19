@@ -22,8 +22,10 @@ return (
       </SubTitle>
       <SubTitle  isSmallScreen={isSmallScreen}> 
         I am a Software Engineer specialized in backend development. 
-        I have experience in Machine Learning, Data Analysis and Algorithms. 
-        But I also make art and love design, so I dabble in Web Development (like this website).
+        I have experience in Cloud Development, Machine Learning, Data Analysis and Algorithms. 
+        But I also make art.
+
+        I love to think creatively, solve challenging problems, and experiment.
       </SubTitle>
     </MainInfo>
     <SecondaryInfo>

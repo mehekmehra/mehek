@@ -39,7 +39,6 @@ export const DisplayImages = () => {
         { title: Tree },
         { title: Torso },
         { title: Fish },
-        { title: Bottle },
         { title: Leopard },
         { title: Collage },
         { title: Tree2 },

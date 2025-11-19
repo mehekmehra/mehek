@@ -1,5 +1,12 @@
 [
     {
+        "title": "AWS (Elastic Block Store)",
+        "description": "In my time at AWS, I have spent time on the Developer Tools team and the Placement team (recommending where workflows should go in data centers). On the Developer Tools team, I worked on building a log retrieval system to reduce the time to investigate automated workflows by 90%. I also took over leading an org-wide migration that had been in the works for 6 years and brought it to completion, actively communicating with a variety of stakeholders and resolving countless unforeseen issues as they arose. Despite only being on the Placement team for a few months, I have already started working on projects to include historical data to make better informed decisions and shift from static constraints to dynamic ones that better reflect real-life situations. Between projects, I also enjoy building AI tooling to improve our team's productivity. I built a custom knowledge base at chat chatbot to answer team-specific questions, and I am currently building a code review agent to improve our code quality.",
+        "subtitle": "2024-Now | Python, Java, Kotlin, Cloud Development, AWS, Docker, Git, Distributed Systems",
+        "repoExists" : false,
+        "repoUrl" : ""
+    },
+    {
         "title": "Analyzing Query Logs",
         "description": "For my intern project at Amazon, I was tasked with creating a pipeline to ingest query log data, process, analyze it, and present the results in a dashboard. I taught myself how to use a variety of AWS tools including S3, Athena and QuickSight using the Boto3 API. I also learned how to build a cloud development kit and work with Dockerfiles. While I gained a lot technical skills from this experience, I also gained countless professional ones. I learned to write maintainable code, communicate my progress concisely, present technical details to audiences with varying backgrounds, manage my time effectively and document my design and implementation choices. This was an extremely valuable experience for me and changed the way I code.",
         "subtitle": "2023 | Python, Cloud Development, SQL, AWS, Docker, Git",
