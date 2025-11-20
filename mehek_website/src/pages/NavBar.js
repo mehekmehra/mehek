@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledList, StyledElement, ExternalStyledLink } from "./Styles/NavBarStyles";
 import { HighlightLink } from "./Styles/ConditionalButton";
-import Resume from "./Resources/MayResume.pdf";
+import Resume from "./Resources/resume.pdf";
 import { useMediaQuery } from "react-responsive";
 
 export const Navigation = () => {
